@@ -279,13 +279,13 @@ MonoBehaviour:
       - m_Target: {fileID: 310008039}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: playgame
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Game
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &310008037
@@ -764,6 +764,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7738902597878681375, guid: 86091abed40934cf1bd6a5a5f589c090, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7738902597878681568, guid: 86091abed40934cf1bd6a5a5f589c090, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7738902597878681568, guid: 86091abed40934cf1bd6a5a5f589c090, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7738902597878681568, guid: 86091abed40934cf1bd6a5a5f589c090, type: 3}
+      propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7738902597878681571, guid: 86091abed40934cf1bd6a5a5f589c090, type: 3}
